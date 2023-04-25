@@ -1,0 +1,18 @@
+﻿<Window x:Class="Nikolov_P_FinalProjectCS23.Feedback"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nikolov_P_FinalProjectCS23"
+        mc:Ignorable="d" 
+      Width="416" Height="739"
+      Title="Feedback">
+    <Grid Background="#ffe1a6" Height="700" Width="400">
+        <TextBlock Height="82" HorizontalAlignment="Center" Text="Your opinions matter to us and your feedback is used to improve how we work and ensure we deliver a consistently high-quality service." VerticalAlignment="Top" FontSize="18" Width="380" Margin="0,48,0,0" TextWrapping="Wrap" TextAlignment="Center"/>
+        <TextBox Name="feedback" BorderThickness="0" Margin="38,171,38,131" Background="#e09524" Foreground="#FF797979" FontSize="16"/>
+        <Rectangle Height="36" Margin="90,615,210,49" Fill="#e09524" RadiusX="3" RadiusY="3" />
+        <Button Click="Back" BorderThickness="0" Background="Transparent" Content="BACK" Height="36" HorizontalAlignment="Left" Margin="90,615,0,0" VerticalAlignment="Top" Width="100"  FontSize="17"/>
+        <Rectangle Height="36" Margin="210,615,90,49" Fill="#e09524" RadiusX="3" RadiusY="3" />
+        <Button Click="Submit" BorderThickness="0" Background="Transparent" Content="SUBMIT" Height="36" HorizontalAlignment="Left" Margin="210,615,0,0" VerticalAlignment="Top" Width="100"  FontSize="17"/>
+    </Grid>
+</Window>

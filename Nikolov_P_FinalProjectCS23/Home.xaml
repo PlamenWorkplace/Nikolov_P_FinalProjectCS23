@@ -1,0 +1,20 @@
+﻿<Window x:Class="Nikolov_P_FinalProjectCS23.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nikolov_P_FinalProjectCS23"
+        mc:Ignorable="d" 
+      Title="Home" Width="416" Height="739">
+    <Grid Background="#ffe1a6" Height="700" Width="400">
+        <TextBlock x:Name="welcome" Margin="0,110,0,0" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Rectangle Margin="76,272,76,399" Fill="#e09524" RadiusX="3" RadiusY="3" />
+        <Button Click="Play" BorderThickness="0" Background="Transparent" Content="PLAY" Height="29" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Width="248" FontSize="17"/>
+        <Rectangle Margin="76,341,76,330" Fill="#e09524" RadiusX="3" RadiusY="3" />
+        <Button Click="ChessWorld" BorderThickness="0" Background="Transparent" Content="CHESS WORLD" Height="29" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Width="248" FontSize="17"/>
+        <Rectangle Margin="76,410,76,261" Fill="#e09524" RadiusX="3" RadiusY="3" />
+        <Button Click="Settings" BorderThickness="0" Background="Transparent" Content="SETTINGS" Height="29" HorizontalAlignment="Center" Margin="0,410,0,0" VerticalAlignment="Top" Width="248" FontSize="17"/>
+        <Rectangle Margin="76,479,76,192" Fill="#e09524" RadiusX="3" RadiusY="3" />
+        <Button Click="Feedback" BorderThickness="0" Background="Transparent" Content="SEND YOUR FEEDBACK!" Height="29" HorizontalAlignment="Center" Margin="0,479,0,0" VerticalAlignment="Top" Width="248" FontSize="17"/>
+    </Grid>
+</Window>

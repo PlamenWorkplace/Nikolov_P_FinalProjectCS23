@@ -1,0 +1,16 @@
+﻿<Window x:Class="Nikolov_P_FinalProjectCS23.Delete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nikolov_P_FinalProjectCS23"
+        mc:Ignorable="d"
+        Title="Delete" Height="208" Width="208">
+    <Grid Background="#ffe1a6" Height="200" Width="200">
+        <TextBlock HorizontalAlignment="Center" Height="46" Margin="0,48,0,0" TextWrapping="Wrap" Text="Your account will be deleted permanently!" VerticalAlignment="Top" Width="164" TextAlignment="Center" FontSize="16"/>
+        <Rectangle Margin="10,123,109,52" Fill="#e09524" RadiusX="3" RadiusY="3" RenderTransformOrigin="0.5,0.5" />
+        <Button Click="Cancel" BorderThickness="0" Background="Transparent" Content="CANCEL" Height="25" HorizontalAlignment="Left" Margin="10,123,0,0" VerticalAlignment="Top" Width="81"  FontSize="14"/>
+        <Rectangle Margin="110,123,9,52" Fill="#e09524" RadiusX="3" RadiusY="3"/>
+        <Button Click="Confirm" BorderThickness="0" Background="Transparent" Content="CONFIRM" Height="25" HorizontalAlignment="Left" Margin="110,123,0,0" VerticalAlignment="Top" Width="80"  FontSize="14"/>
+    </Grid>
+</Window>
